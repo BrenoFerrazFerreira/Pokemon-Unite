@@ -71,6 +71,42 @@
     background-color: var(--pink);
 }
 
+.card.light_blue {
+    background-color: var(--light-blue);
+}
+
+.card.goldenrod {
+    background-color: var(--goldenrod);
+}
+
+.card.chocolate {
+    background-color: var(--chocolate);
+}
+
+.card.sky_blue {
+    background-color: var(--sky-blue);
+}
+
+.card.light_green {
+    background-color: var(--light-green);
+}
+
+.card.hot_pink {
+    background-color: var(--hot-pink);
+}
+
+.card.green2 {
+    background-color: var(--green2);
+}
+
+.card.olive_drab {
+    background-color: var(--olive-drab);
+}
+
+.card.olive_drab {
+    background-color: var(--olive-drab);
+}
+
 .card__title {
     font-size: 12px;
     font-weight: bold;
