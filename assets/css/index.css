@@ -107,6 +107,10 @@
     background-color: var(--olive-drab);
 }
 
+.card.purple2 {
+    background-color: var(--purple2);
+}
+
 .card__title {
     font-size: 12px;
     font-weight: bold;
