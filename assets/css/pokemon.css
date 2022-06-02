@@ -140,7 +140,7 @@ h2 {
 .evolution__list {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 32px;
     gap: 24px;
 }
