@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/pokemon.css">
-    <title>Document</title>
+    <style>
+        :root {
+          --pokemon-color: #FFA800;
+        }
+      </style>
+      <title>Pokémon Unite | Charizard</title>
 </head>
 
 <body>
@@ -45,7 +50,7 @@
                 <img class="preview__image" src="/assets/images/stat/stat-charizard.png" alt="Charizardinho">
             </div>
             <div class="preview__details">
-                <h1 class="pokemon-color">Charizard</h1>
+                <h1 class="pokemon__color">Charizard</h1>
                 <p class="preview__level">Nível: inicante</p>
                 <p class="preview__description">
                     Enquanto ainda é Charmander, não é o mais confiável, mas ao evoluir para Charizard, consegue usar seus movimentos poderosos para atacar e causar dano em uma área bem grande.
@@ -53,6 +58,63 @@
                 <div class="preview__pills">
                     <span class="preview__pill">All-rounder</span>
                     <span class="preview__pill">Melee</span>
+                </div>
+            </div>
+        </section>
+        <section class="skills__container">
+            <h2 class="skills__title pokemon__color">
+                Skills do pokemon
+            </h2>
+            <p class="skills__description">
+                Esse Pokemon possui as seguintes habilidades de batalha:
+            </p>
+            <div class="skills__list">
+                <div class="skills__item">
+                    <label class="skills__label pokemon__color">Ataque</label>
+                    <progress class="skills__progress pokemon__color" max="100" value="50"></progress>
+                </div>
+                <div class="skills__item">
+                    <label class="skills__label pokemon__color">Resistência</label>
+                    <progress class="skills__progress pokemon__color" max="100" value="30"></progress>
+                </div>
+                <div class="skills__item">
+                    <label class="skills__label pokemon__color">Mobilidade</label>
+                    <progress class="skills__progress pokemon__color" max="100" value="70"></progress>
+                </div>
+                <div class="skills__item">
+                    <label class="skills__label pokemon__color">Pontuação</label>
+                    <progress class="skills__progress pokemon__color" max="100" value="20"></progress>
+                </div>
+                <div class="skills__item">
+                    <label class="skills__label pokemon__color">Apoio</label>
+                    <progress class="skills__progress pokemon__color" max="100" value="80"></progress>
+                </div>
+            </div>
+        </section>
+        <section class="evolutions__container">
+            <h2 class="pokemon__color">Evoluções</h2>
+            <p class="evolution__description">Esse pokemon pode evoluir em:</p>
+            <div class="evolution__list">
+                <div class="evolution__item">
+                    <img src="/assets/images/evolution/evolution-1-charmander.png" alt="Charmander" class="evolution__image">
+                    <div class="evolution__details">
+                        <p class="evolution__name pokemon__color">Charmander</p>
+                        <p class="evolution__level">Nível 1</p>
+                    </div>
+                </div>
+                <div class="evolution__item">
+                    <img src="/assets/images/evolution/evolution-2-charmeleon.png" alt="Charmeleon" class="evolution__image">
+                    <div class="evolution__details">
+                        <p class="evolution__name pokemon__color">Charmeleon</p>
+                        <p class="evolution__level">Nível 2</p>
+                    </div>
+                </div>
+                <div class="evolution__item">
+                    <img src="/assets/images/evolution/evolution-3-charizard.png" alt="Charizard" class="evolution__image">
+                    <div class="evolution__details">
+                        <p class="evolution__name pokemon__color">Charizard</p>
+                        <p class="evolution__level">Nível 3</p>
+                    </div>
                 </div>
             </div>
         </section>

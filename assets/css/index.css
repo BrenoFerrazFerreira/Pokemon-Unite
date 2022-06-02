@@ -6,15 +6,15 @@
     display: flex;
 }
 
-.search__field{
+.search__field {
     border: 1px solid var(--primary-color);
     background-color: transparent;
     border-radius: 4px;
     color: white;
     padding: 16px;
-    margin-right: 50px;
+    margin-right: 40px;
     width: 100%;
-}
+  }
 
 .search__button{
     background-color: var(--primary-color);
@@ -23,7 +23,7 @@
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    transition: background 1s ease-in-out;
+    transition: background 0.3s ease-in-out;
 }
 
 .search__button:hover{
@@ -31,12 +31,12 @@
     color: white;
 }
 
-.card__container{
+.card__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
-}
+  }
 
 .card {
     width: calc(var(--container-size) / 4 - 32px);

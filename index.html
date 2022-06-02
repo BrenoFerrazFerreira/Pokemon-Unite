@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/index.css">
+    <script src="/assets/js/index.js"></script>
     <title>Pokemon Unite</title>
 </head>
 <body>
     <nav class="container menu__container">
+        <input type="checkbox" id="menu__toggle" class="menu__toggle">
         <div class="menu__logo">
             <div>
                 <img src="/assets/images/logo.svg" alt="Pokemon Unite"> 
             </div>
-        </div>
+            <label for="menu__toggle" class="icon">
+                <img src="/assets/images/hamburguer.svg" />
+            </label></div>
         <ul class="menu">
             <li class="menu__item menu__item--active">
                 <a href="/" class="menu__link"> Página Inicial </a>
@@ -37,146 +41,7 @@
             <button class="search__button">Buscar</button>
         </div>
         <div class="card__container">
-            <a class="card orange" href="charizard.html">
-                <img class="card__image" src="/assets/images/stat/stat-charizard.png" >
-                <div class="card__title">Charizard</div>
-            </a>
-            <a class="card green">
-                <img class="card__image" src="/assets/images/stat/stat-venusaur.png" >
-                <div class="card__title">Venusaur</div>
-            </a>
-            <a class="card yellow">
-                <img class="card__image" src="/assets/images/stat/stat-pikachu.png" >
-                <div class="card__title">Pikachu</div>
-            </a>
-            <a class="card purple">
-                <img class="card__image" src="/assets/images/stat/stat-gengar.png" >
-                <div class="card__title">Gengar</div>
-            </a>
-            <a class="card pink">
-                <img class="card__image" src="/assets/images/stat/stat-blissey.png" >
-                <div class="card__title">Blissey</div>
-            </a>
-            <a class="card sky_blue">
-                <img class="card__image" src="/assets/images/stat/stat-blastoise.png" >
-                <div class="card__title">Blastoise</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-snorlax.png" >
-                <div class="card__title">Snorlax</div>
-            </a>
-            <a class="card chocolate">
-                <img class="card__image" src="/assets/images/stat/stat-mamoswine.png" >
-                <div class="card__title">Mamoswine</div>
-            </a>
-            <a class="card goldenrod">
-                <img class="card__image" src="/assets/images/stat/stat-dragonite.png" >
-                <div class="card__title">Dragonite</div>
-            </a>
-            <a class="card light_green">
-                <img class="card__image" src="/assets/images/stat/stat-gardevoir.png" >
-                <div class="card__title">Gardevoir</div>
-            </a>
-            <a class="card pink">
-                <img class="card__image" src="/assets/images/stat/stat-slowbro.png" >
-                <div class="card__title">Slowbro</div>
-            </a>
-            <a class="card green2">
-                <img class="card__image" src="/assets/images/stat/stat-trevenant.png" >
-                <div class="card__title">Trevenant</div>
-            </a>
-            <a class="card hot_pink">
-                <img class="card__image" src="/assets/images/stat/stat-mr-mime.png" >
-                <div class="card__title">Mr Mime</div>
-            </a>
-            <a class="card olive_drab">
-                <img class="card__image" src="/assets/images/stat/stat-eldegoss.png" >
-                <div class="card__title">Eldegoss</div>
-            </a>
-            <a class="card chocolate">
-                <img class="card__image" src="/assets/images/stat/stat-greedent.png" >
-                <div class="card__title">Greedent</div>
-            </a>
-            <a class="card hot_pink">
-                <img class="card__image" src="/assets/images/stat/stat-hoopa.png" >
-                <div class="card__title">Hoopa</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-machamp.png" >
-                <div class="card__title">Machamp</div>
-            </a>
-            <a class="card pink">
-                <img class="card__image" src="/assets/images/stat/stat-wigglytuff.png" >
-                <div class="card__title">Wigglytuff</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-duraludon.png" >
-                <div class="card__title">Duraludon</div>
-            </a>
-            <a class="card chocolate">
-                <img class="card__image" src="/assets/images/stat/stat-crustle.png" >
-                <div class="card__title">Crustle</div>
-            </a>
-            <a class="card purple2">
-                <img class="card__image" src="/assets/images/stat/stat-aegislash.png" >
-                <div class="card__title">Aegislash</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-absol.png" >
-                <div class="card__title">Absol</div>
-            </a>
-            <a class="card sky_blue">
-                <img class="card__image" src="/assets/images/stat/stat-azumarill.png" >
-                <div class="card__title">Azumarill</div>
-            </a>
-            <a class="card goldenrod">
-                <img class="card__image" src="/assets/images/stat/stat-cinderace.png" >
-                <div class="card__title">Cinderace</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-cramorant.png" >
-                <div class="card__title">Cramorant</div>
-            </a>
-            <a class="card orange">
-                <img class="card__image" src="/assets/images/stat/stat-decidueye.png" >
-                <div class="card__title">Decidueye</div>
-            </a>
-            <a class="card purple2">
-                <img class="card__image" src="/assets/images/stat/stat-garchomp.png" >
-                <div class="card__title">Garchomp</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-greninja.png" >
-                <div class="card__title">Greninja</div>
-            </a>
-            <a class="card sky_blue">
-                <img class="card__image" src="/assets/images/stat/stat-lucario.png" >
-                <div class="card__title">Lucario</div>
-            </a>
-            <a class="card light_blue">
-                <img class="card__image" src="/assets/images/stat/stat-machamp.png" >
-                <div class="card__title">Machamp</div>
-            </a>
-            <a class="card sky_blue">
-                <img class="card__image" src="/assets/images/stat/stat-ninetales-de-alola.png" >
-                <div class="card__title">Ninetales de Alola</div>
-            </a>
-            <a class="card pink">
-                <img class="card__image" src="/assets/images/stat/stat-sylveon.png" >
-                <div class="card__title">Sylveon</div>
-            </a>
-            <a class="card goldenrod">
-                <img class="card__image" src="/assets/images/stat/stat-talonflame.png" >
-                <div class="card__title">Talonflame</div>
-            </a>
-            <a class="card light_green">
-                <img class="card__image" src="/assets/images/stat/stat-tsareena.png" >
-                <div class="card__title">Tsareena</div>
-            </a>
-            <a class="card goldenrod">
-                <img class="card__image" src="/assets/images/stat/stat-zeraora.png" >
-                <div class="card__title">Zeraora</div>
-            </a>
+            
         </div>
     </main>
     <footer class="footer">
