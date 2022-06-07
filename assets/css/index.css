@@ -14,6 +14,7 @@
     padding: 16px;
     margin-right: 40px;
     width: 100%;
+    background-image:  url('/assets/images/search.svg')  right no-repeat;
   }
 
 .search__button{
@@ -29,6 +30,12 @@
 .search__button:hover{
     background-color: #F0E68C;
     color: white;
+}
+
+.search__image {
+    float: left;
+    width: 30px;
+    height: 30px;
 }
 
 .card__container {
